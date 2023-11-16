@@ -7,7 +7,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-header {
+header,
+footer {
     background-color: #1F2937;
     color: white;
     padding: 0px 100px;
@@ -145,4 +146,11 @@ nav {
     font-size: 28px;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
