@@ -94,3 +94,27 @@ nav {
     height: 150px;
     margin-bottom: 20px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 60%;
+    padding: 30px;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
