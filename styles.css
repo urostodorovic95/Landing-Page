@@ -54,7 +54,8 @@ nav {
     padding-bottom: 60px;
 }
 
-.signup-button {
+.signup-button,
+.banner-button {
     background-color: #3882F6;
     font-size: 18px;
     font-weight: 900;
@@ -102,6 +103,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 40px 0px;
+    padding-top: 20px;
 }
 
 .quote {
@@ -117,4 +119,30 @@ nav {
     align-self: flex-end;
     margin-right: 300px;
     margin-bottom: 40px;
+}
+
+.signup-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 0 20%;
+    padding: 0 5%;
+    border-radius: 20px;
+}
+
+#banner-subtext {
+    color: #E5E7EB;
+}
+
+.banner-button {
+    border: 1px solid white;
+}
+
+#call-action {
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
